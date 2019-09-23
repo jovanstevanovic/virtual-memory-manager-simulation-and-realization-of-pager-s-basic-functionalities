@@ -1,0 +1,4 @@
+U fajlu "part.h" dato je zaglavlje koje je potrebno ukljuciti u projekat. Citava aplikacije treba da bude iskljucivo native. Biblioteka je prevedena u Debug rezimu. Biblioteka koristi mutex biblioteku C++11 standarda.
+
+Pri kreiranju objekta particije potrebno je proslediti naziv fajla koji sadrzi podatke o disku. Primer takvog fajla je fajl "p1.ini". U prvoj liniji zapisan je naziv fajla koji ce cuvati sve podatke (oponasati hard disk). U sledecoj liniji je velicina particije u klasterima. Dati primer je samo pokazni i za rad bi trebalo obezbediti particiju velicine bar 10MB. Sama promena velicine particije ce po potrebi prosiriti fajl koji oponasa disk (u ovom slucaju "disk1.dat"), ali nece kreirati fajl ukoliko isti ne postoji.
+
